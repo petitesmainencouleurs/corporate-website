@@ -643,7 +643,7 @@ input:-ms-input-placeholder {
 
 a.navbar-brand.our_logo {
     position: absolute;
-    left: 0;
+    left: -50px;
     top: -50px;
     width: 25%;
 }
@@ -758,6 +758,11 @@ a.navbar-brand.our_logo {
     background-size: cover;
 }
 
+.slider3 {
+    background: url(../images/bannerbg3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .main_slider {
 
 }
@@ -782,6 +787,14 @@ a.navbar-brand.our_logo {
     width: 70%;
     margin: 0 auto;
     color: #fff;
+}
+
+.main_slider_content3 {
+    text-align: right;
+    padding: 150px 0px 200px 0px;
+    width: 70%;
+    margin: 0 auto;
+    color: black;
 }
 
 .slider_overlay {
@@ -1128,4 +1141,20 @@ a.navbar-brand.our_logo {
     margin-left: -6px;
     text-decoration: none;
 
+}
+
+.fb-comments, .fb-comments iframe[style], .fb-comments span {
+    width: 100% !important;
+}
+
+iframe[style] {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+}
+
+._2p3a {
+    width: 100% !important;
 }
