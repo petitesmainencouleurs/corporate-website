@@ -1158,3 +1158,13 @@ iframe[style] {
 ._2p3a {
     width: 100% !important;
 }
+
+.price-label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.price-value {
+    float: right;
+    font-weight: bold;
+}
